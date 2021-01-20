@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+<header class="header">
+    <h1 class="header__title">Лабораторна робота 16</h1>
+    <h2 class="header__text">Студента Макущенко В. В.</h2>
+</header>
+<div class="variant">
+    <h2 class="variant__title">Варіант №3
+        Завдання</h2>
+    <p class="variant__text">
+        Написати інтерфейс для створення маркованого списку. Пункти
+        списку – це введені користувачем рядки у повідомленні prompt,
+        значення яких записується у початок списку. При наведенні миші на
+        пункти списку змінюється стиль оформлення.
+        Організувати кнопку для видалення пунктів з кінця списку.
+    </p>
+</div>
+<div class="block">
+    <div class="container">
+        <div class="block__task">
+            <div onmouseover="b2()" class="block__task-ol" id="block__task"></div>
+<!--            <ol class="block__list" id="ol">-->
+<!--                <li class="block__item" id="item1">Item</li>-->
+<!--                <li class="block__item" id="item2">Item</li>-->
+<!--                <li class="block__item" id="item3">Item</li>-->
+<!--                <li class="block__item" id="item4">Item</li>-->
+<!--            </ol>-->
+
+            <button class="block__btn" type="submit" id="remove"> delete last item</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
